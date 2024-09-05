@@ -1,0 +1,21 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-0: #000000;
+    --color-1: #808080;
+    --text-color: #ffffff;
+    --accent-color: #d3d3d3;
+}
+
+html{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 25px;
+}
