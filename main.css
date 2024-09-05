@@ -1,0 +1,24 @@
+body {
+    background-color: #fff4ce;
+}
+
+.logodiv {
+    display: flex;
+    justify-content: center;
+}
+
+.logoMain {
+    height: 750px;
+}
+
+@media(min-width: 410px) and (max-width: 449px) {
+    .logoMain {
+        height: 335px;
+    }
+}
+
+@media(min-width: 360px) and (max-width: 410px) {
+    .logoMain {
+        height: 295px;
+    }
+}
