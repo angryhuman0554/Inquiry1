@@ -1,0 +1,132 @@
+.flexboxOuter {
+    padding: 150px;
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexboxInner {
+    min-height: 848px;
+    width: 1200px;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexboxRow, .flexboxRowL, .flexboxRowR {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.flexboxRowL video, .flexboxRowR video {
+    height: 384px;
+    width: 683px;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray;
+    text-align: center;
+    height: 364px;
+    width: 457px;
+    padding: 10px;
+}
+
+.textBox h5{
+    font-size: 41.5px;
+    color: white;
+}
+
+.textBox p {
+    font-size: 25px;
+    color: lightgray;
+}
+
+.reviewBoxOuter {
+    padding: 150px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.reviewBox {
+    height: auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    text-align: left;
+    height: 158px;
+    width: 1127px;
+    padding: 20px;
+}
+
+.review .name {
+    color: white;
+}
+
+.stars {
+    display: flex;
+}
+
+.review .text {
+    color: lightgray;
+}
+
+@media(max-width: 1200px) {
+    .flexboxRowL {
+        flex-direction: column;
+    }
+
+    .flexboxRowR {
+        flex-direction: column-reverse;
+    }
+    
+    .flexboxOuter {
+        padding: 15px;
+    }
+
+    .flexboxRowL video, .flexboxRowR video {
+        height: auto;
+        width: auto;
+    }
+
+    .textBox {
+        height: auto;
+        width: auto;
+        padding: 10px;
+    }
+
+    .textBox h5 {
+        font-size: 30px;
+    }
+
+    .textBox p {
+        font-size: 22.5px;
+    }
+    
+    .reviewBoxOuter {
+        padding: 10px;
+    }
+
+    .review {
+        height: auto;
+        width: auto;
+    }
+}
