@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>Temple Town - Home</title>
-    <link rel="stylesheet" href="styles/global.css"/>
-    <link rel="stylesheet" href="styles/main.css"/>
-    <link rel="stylesheet" href="styles/navbar.css"/>
-    <link rel="stylesheet" href="styles/flexbox.css">
+    <title>Temple Town - About</title>
+    <link rel="stylesheet" href="../../styles/global.css"/>
+    <link rel="stylesheet" href="../../styles/navbar.css"/>
+    <link rel="stylesheet" href="../../styles/flexbox.css">
 </head>
 <body>
     <nav>
@@ -25,17 +24,68 @@
                     <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
                 </svg>
             </label>
-            <a class="logo" href="/Inquiry/#">
-                <img src="assets/icons/logoNav.png" height="60px" width="60px">
+            <a class="logo" href="../../../Inquiry/#">
+                <img src="../../assets/icons/logoNav.png" height="60px" width="60px">
                 Temple Town
             </a>
-            <a href="./src/about/">About</a>
-            <a href="./src/feedback/">Feedback</a>
+            <a href="../../src/about/">About</a>
+            <a href="../../src/feedback/">Feedback</a>
         </div>
     </nav>
-
-    <div class="logodiv">
-        <img class="logoMain" src="assets/icons/logoMain.png">
+    
+    <div class="flexboxOuter">
+        <div class="flexboxInner">
+            <div id="temple" class="flexboxRowR">
+                <video controls="controls">
+                    <source 
+                        src="https://drive.google.com" 
+                        type="video/mp4"
+                    />
+                </video>
+                <div class="textBox">
+                    <h5>Sakura Temple</h5>
+                    <p>
+                        Our Sakura Temple is like the main hub in our civilisation. 
+                        In here, you can find a class, toliets, a hospital, and SpeedFood — our local fast food chain. 
+                        You can also find his/her majesty's throne.
+                    </p>
+                </div>
+            </div>
+            <div id="village" class="flexboxRowL">
+                <div class="textBox">
+                    <h5>Village</h5>
+                    <p>
+                        The village houses of Temple Town are handbuilt in the past decade, 
+                        therefore having advanced earthquake protection and technology.
+                        Each house for living consists of a dining room, a toliet, and a kitchen.
+                        There is also the house of the scientist, which has a mysterious portal.
+                    </p>
+                </div>
+                <video width="683px" height="384px" controls="controls">
+                    <source 
+                        src="https://drive.google.com" 
+                        type="video/mp4"
+                    />
+                </video>
+            </div>
+            <div id="docks" class="flexboxRowR">
+                <video controls="controls">
+                    <source 
+                        src="https://drive.google.com" 
+                        type="video/mp4"
+                    />
+                </video>
+                <div class="textBox">
+                    <h5>Docks</h5>
+                    <p>
+                        The docks are one of the most important places in our town. 
+                        This is because the best-selling dish at SpeedFood is deep-fried cod. 
+                        You can ride a boat through the cave, or up/down the boat ramp. 
+                        The local fisherman — Bernard Hackwell — lives here at the docks in his nice little house.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
